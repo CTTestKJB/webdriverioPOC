@@ -1,5 +1,19 @@
+// require('babel-register')({
+//     presets: ['env']
+//   });
+// require('babel-register');  
+//module.exports = require('./features/pageobject/culturetrip-search.page')
+
+// module.exports = {
+//     presets: [
+//         ['@babel/preset-env', {
+//             targets: {
+//                 node: 8
+//             }
+//         }]
+//     ]
+// }
 exports.config = {
-    
     //
     // ==================
     // Specify Test Files
@@ -46,6 +60,10 @@ exports.config = {
         //
         browserName: 'chrome'
     }],
+
+    // before: function() {
+    //     require('babel-register');
+    // },
     //
     // ===================
     // Test Configurations
@@ -58,7 +76,7 @@ exports.config = {
     sync: true,
     //
     // Level of logging verbosity: silent | verbose | command | data | result | error
-    logLevel: 'silent',
+    logLevel: 'verbose',
     //
     // Enables colors for log output.
     coloredLogs: true,
@@ -130,7 +148,7 @@ exports.config = {
     cucumberOpts: {
         require: ['./features/step-definitions/test-steps.js'],        // <string[]> (file/dir) require files before executing features
         backtrace: false,   // <boolean> show full backtrace for errors
-        compiler: [],       // <string[]> ("extension:module") require files with the given EXTENSION after requiring MODULE (repeatable)
+        compiler: ['js:@babel/register'],       // <string[]> ("extension:module") require files with the given EXTENSION after requiring MODULE (repeatable)
         dryRun: false,      // <boolean> invoke formatters without executing steps
         failFast: false,    // <boolean> abort the run on first failure
         format: ['pretty'], // <string[]> (type[:path]) specify the output format, optionally supply PATH to redirect formatter output (repeatable)
@@ -174,8 +192,9 @@ exports.config = {
      * @param {Array.<Object>} capabilities list of capabilities details
      * @param {Array.<String>} specs List of spec file paths that are to be run
      */
-    // before: function (capabilities, specs) {
-    // },
+    before: function () {
+        //module.exports = require('../pageobject/culturetrip-search.page');
+    },
     /**
      * Runs before a WebdriverIO command gets executed.
      * @param {String} commandName hook command name
@@ -256,3 +275,4 @@ exports.config = {
     // onComplete: function(exitCode, config, capabilities) {
     // }
 }
+

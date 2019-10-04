@@ -37,6 +37,7 @@ class CultureTripPage  {
     return this.resultsList.isVisible();
   }
 
+
   open () {
     browser.url(path)
     //super.open('http://theculturetrip.com')       //provide your additional URL if any. this will append to the baseUrl to form complete URL
@@ -63,6 +64,19 @@ isSearched () {
 this.resultsList.waitForVisible(1000);
 return this.resultsList.isVisible();
 }
+
+
+  export default class Page {
+    open (path) {
+      browser.url(path)
+    }
+  }
+
+  export default class Page {
+    open (path) {
+      browser.url(path)
+    }
+  }
 
 }
 

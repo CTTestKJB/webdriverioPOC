@@ -58,3 +58,5 @@ master 3
   tests4
 
   tests5
+
+  tests6

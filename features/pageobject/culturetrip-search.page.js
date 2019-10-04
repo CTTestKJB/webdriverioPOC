@@ -39,20 +39,6 @@ class CultureTripPage  {
 
 test1
 
-<<<<<<< HEAD
-  open () {
-    browser.url(path)
-    //super.open('http://theculturetrip.com')       //provide your additional URL if any. this will append to the baseUrl to form complete URL
-    browser.pause(1000);
-
-    master 1
-
-    master 2
-=======
-test2
-
-test3
->>>>>>> remove stuff final
 }
 
 

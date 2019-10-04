@@ -39,5 +39,7 @@ class CultureTripPage  {
 
   master12
 
+  master13
+
 
 //export default new CultureTripPage();

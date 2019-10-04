@@ -46,3 +46,5 @@ defineSupportCode(function({Given, When, Then}) {
 master1
 
 master2
+
+master3

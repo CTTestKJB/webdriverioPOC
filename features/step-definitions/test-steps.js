@@ -46,39 +46,9 @@ master 1
 
 master 2
 
-<<<<<<< HEAD
 master 3
-=======
-Scenario: First Scenario
-  Given I navigate to Google
-  When I search for Formula 1
 
-
-  sgdasdgdag
-  sgdasdggds
-  asdgsadgdd
-
-
-  sadggadgasgd
-  sadgsadggdgds
-  sdgsadgsgdsgdsgasd
-
-
-
-  34534346346346
-  3463646346344363
-
-
-  [][][][][][][]]][[]
-][[][][[]][]][]]
-  '''''''''''''
-
-  '''''''''''''
-
-  .anchor.apply.apply.apply.apply.apply.
-
-  \\\\\\\\\\\\\\\\\
-  '''''''''''''''''''
 
   tests1
->>>>>>> tests1
+
+  tests2

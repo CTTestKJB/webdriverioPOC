@@ -42,9 +42,4 @@ defineSupportCode(function({Given, When, Then}) {
     //browser.pause(5000);
   });
 });
-
-master1
-
-master2
-
-master3
+master 1

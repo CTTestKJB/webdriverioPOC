@@ -85,3 +85,5 @@ Scenario: First Scenario
   tests4
 
   tests5
+
+  tests6

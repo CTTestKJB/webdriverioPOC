@@ -41,5 +41,11 @@ class CultureTripPage  {
 
   master13
 
+tests12
+
+tests13
+
+tests14
+
 
 //export default new CultureTripPage();

@@ -45,6 +45,7 @@ test1
 test2
 test3
 
+tests6
 
 
 //export default new CultureTripPage();

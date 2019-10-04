@@ -44,6 +44,8 @@ class CultureTripPage  {
     browser.pause(1000);
 
     master 1
+
+    master 2
 }
 
 

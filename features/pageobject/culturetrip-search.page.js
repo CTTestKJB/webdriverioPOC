@@ -41,6 +41,9 @@ master 5
 
 master 6
 
+tests6
+tests7
+tests8
 
 
 //export default new CultureTripPage();

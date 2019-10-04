@@ -47,6 +47,29 @@ tests8
 
 master9
 master10
+search () {
+  this.searchButton.click();
+  browser.pause(3000);
+}
+isSearched () {
+  this.resultsList.waitForVisible(1000);
+  return this.resultsList.isVisible();
+}
+
+tests9
+
+search () {
+  this.searchButton.click();
+  browser.pause(3000);
+}
+isSearched () {
+  this.resultsList.waitForVisible(1000);
+  return this.resultsList.isVisible();
+}
+
+tests10
+
+tests11
 
 
 //export default new CultureTripPage();

@@ -43,27 +43,3 @@ defineSupportCode(function({Given, When, Then}) {
   });
 });
 
-Feature: Cucumber proof of concept
-
-Scenario: First Scenario
-  Given I navigate to Google
-  When I search for Formula 1
-
-
-  sgdasdgdag
-  sgdasdggds
-  asdgsadgdd
-
-
-  sadggadgasgd
-  sadgsadggdgds
-  sdgsadgsgdsgdsgasd
-
-
-
-  34534346346346
-  3463646346344363
-
-
-  [][][][][][][]]][[]
-][[][][[]][]][]]

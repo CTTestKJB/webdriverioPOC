@@ -37,7 +37,7 @@ class CultureTripPage  {
     return this.resultsList.isVisible();
   }
 
-
+test1
 
 }
 

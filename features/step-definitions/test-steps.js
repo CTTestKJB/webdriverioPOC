@@ -52,3 +52,8 @@ master 3
   tests1
 
   tests2
+<<<<<<< HEAD
+=======
+
+  tests3
+>>>>>>> tests3

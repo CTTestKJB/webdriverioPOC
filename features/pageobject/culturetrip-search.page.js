@@ -37,13 +37,7 @@ class CultureTripPage  {
     return this.resultsList.isVisible();
   }
 
-
-master 1
-master 2
-
-test1
-test2
-test3
+master 5
 
 
 

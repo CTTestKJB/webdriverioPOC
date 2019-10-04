@@ -37,8 +37,10 @@ class CultureTripPage  {
     return this.resultsList.isVisible();
   }
 
+
 master 1
 master 2
+
 
 
 

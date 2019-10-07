@@ -41,13 +41,7 @@ class CultureTripPage  {
 
   master13
 
-
-tests12
-
-tests13
-
-tests14
-master 14
+  master 14
 
   masfter 15
 

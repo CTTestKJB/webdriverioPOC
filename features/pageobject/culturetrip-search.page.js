@@ -45,10 +45,14 @@ class CultureTripPage  {
 
   masfter 15
 
+<<<<<<< HEAD
+  tests1
+=======
   master 16
 
   master 17
 
+>>>>>>> master
 
 
 //export default new CultureTripPage();

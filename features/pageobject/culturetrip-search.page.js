@@ -45,5 +45,7 @@ class CultureTripPage  {
 
   masfter 15
 
+  tests1
+
 
 //export default new CultureTripPage();
